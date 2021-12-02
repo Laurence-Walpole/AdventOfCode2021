@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import static general.Utils.out;
+
 public class DayOne {
 
     public static int[] input = new int[2001];
@@ -41,5 +43,4 @@ public class DayOne {
         }
     }
 
-    public static void out(String message) {System.out.println(message);}
 }
